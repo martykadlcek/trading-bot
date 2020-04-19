@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -g -DNDEBUG  -rdynamic CMakeFiles/coinbase.dir/main.cpp.o  -o ../../bin/brokers/coinbase -lstdc++fs -lssl -lcrypto -lpthread ../brokers/libbrokers_common.a ../server/src/simpleServer/libsimpleServer.a ../imtjson/src/imtjson/libimtjson.a -lstdc++fs -lssl -lcrypto -lpthread 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -g -DNDEBUG  -rdynamic CMakeFiles/trainer.dir/main.cpp.o CMakeFiles/trainer.dir/generated/index.html.cpp.o  -o ../../bin/brokers/trainer -lstdc++fs -lssl -lcrypto -lpthread ../brokers/libbrokers_common.a ../imtjson/src/imtjson/libimtjson.a ../server/src/simpleServer/libsimpleServer.a -lstdc++fs -lssl -lcrypto -lpthread 

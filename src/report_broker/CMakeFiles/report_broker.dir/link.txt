@@ -1,0 +1,1 @@
+/usr/bin/c++  -O2 -g -DNDEBUG  -rdynamic CMakeFiles/report_broker.dir/main.cpp.o  -o ../../bin/brokers/report_broker -lstdc++fs -lssl -lcrypto -lpthread ../brokers/libbrokers_common.a ../imtjson/src/imtjson/libimtjson.a ../server/src/simpleServer/libsimpleServer.a -lstdc++fs -lssl -lcrypto -lpthread 

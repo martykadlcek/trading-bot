@@ -1,0 +1,2 @@
+/usr/bin/ar qc libbrokers_common.a  CMakeFiles/brokers_common.dir/api.cpp.o CMakeFiles/brokers_common.dir/orderdatadb.cpp.o CMakeFiles/brokers_common.dir/httpjson.cpp.o
+/usr/bin/ranlib libbrokers_common.a
