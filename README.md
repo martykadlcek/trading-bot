@@ -1,5 +1,5 @@
-# mmbot
-Market Making trading bot for cryptomarkets
+# Investeer trading bot
+Market Maker AI for trading cryptocurrencies, commodities, stocks & FX.
 
 ## ENGLISH
 
