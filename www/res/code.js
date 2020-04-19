@@ -424,7 +424,13 @@ function app_start(){
 			table_rows.set(trbgr, {ident:r.ident, time:r.time});
 			var dr = new Date(r.time);
 
-			var data = [
+			/*
+			if (r.donation) {
+				var don = document.getElementById("donation_item").content;
+				don = document.importNode(don,true);
+				tr.appendChild(don);
+			} else {
+				var data = [				
 					dr.toLocaleString("default",{"day":"numeric","month":"2-digit"}),
 					dr.toLocaleString("default",{"hour":"2-digit","minute":"2-digit","second":"2-digit"}),
 					r.ident?infoMap[r.ident].title:"",
@@ -446,6 +452,8 @@ function app_start(){
 						td.innerText = z;
 					}
 					tr.appendChild(td);
+				});
+				*/
 			
 				var ident_element = tr.querySelector("x-td:nth-child(3)");
 				var first_element = tr.querySelector("x-td:first-child");
