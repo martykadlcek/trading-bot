@@ -979,7 +979,7 @@ function createCSV(chart, infoMap) {
 	return rows.join("\r\n");
 }
 
-/*
+
 function donate() {
 	var w = document.getElementById("donate_window");
 	w.classList.toggle("shown");
@@ -1001,4 +1001,3 @@ function close_donate() {
 	var w = document.getElementById("donate_window");
 	w.classList.remove("shown");
 }
- */
