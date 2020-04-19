@@ -2,8 +2,8 @@
 
 @import url(https://fonts.googleapis.com/css?family=Ruda&display=swap);
 body {
-	background-color: #222;
-	color: #CDCDCD;	
+	background-color: #ffffff;
+	color: #3C3C3C;
 	font-family: Ruda;
 	margin:0;
 	font-size: 0.5cm;
@@ -138,13 +138,13 @@ select > option[disabled] {
 
 x-table {
 	display:block;
-	max-width:20cm;
+	max-width:1000px;
 	margin:auto;	
 	position: relative;
 }
 
 x-trbgr {
-	background: linear-gradient(#222222,#191919);
+	background: #ffffff;
 	display:block;
 	overflow: hidden;
 }
