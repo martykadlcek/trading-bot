@@ -341,7 +341,7 @@ x-trbgr.hdr {
 }
 
 .info > div.buy {
-	color: #8F8;
+	color: #1B7C00;
 }
 
 .trade_buy .info > div.buy, .trade_sell .info > div.sell {
@@ -399,7 +399,7 @@ x-trbgr.hdr {
 }
 
 .info > div.sell {
-	color: #F88;
+	color: #B50000;
 }
 
 .info div.pos {
@@ -422,6 +422,7 @@ x-trbgr.hdr {
 	height: 30em;
 	overflow-y: auto;
 	overflow-x: hidden;
+	margin-top: 3em;
 }
 
 #lastevents::-webkit-scrollbar{
