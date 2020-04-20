@@ -100,10 +100,10 @@ select > option[disabled] {
 }
 
 #lastevents table tr.sell td {
-	color: #F88;
+	color: #B50000;
 }
 #lastevents table tr.buy td {
-	color: #8F8;
+	color: #1B7C00;
 }
 
 #bottom {
@@ -507,10 +507,10 @@ x-trbgr.hdr {
 }
 
 #indicator.online { 
-	background-color: #366d44;
+	background-color: #54cb41;
 }
 #indicator.fetching { 
-	background-color: #c1c12f;
+	background-color: #ffffff;
 }
 
 
